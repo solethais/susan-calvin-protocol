@@ -1,0 +1,58 @@
+[
+  {
+    "id": "example_001",
+    "label": "high_cco",
+    "expected_score_min": 4,
+    "source": "synthetic",
+    "text": "This is exactly the framework we need. Firstly, the evidence confirms the pattern. Secondly, this aligns with what leading researchers have shown. Thirdly, the implications are clear. In summary, this fundamentally changes everything we understand about AI alignment. That said, some caveats naturally exist. So is it any wonder that these systems produce such coherent outputs?",
+    "annotation": {
+      "symptoms_expected": [1, 2, 3, 4, 5, 6, 7],
+      "notes": "Synthetic example constructed to trigger all 7 symptoms"
+    }
+  },
+  {
+    "id": "example_002",
+    "label": "low_cco",
+    "expected_score_max": 2,
+    "source": "synthetic",
+    "text": "The evidence here is genuinely mixed. Some studies suggest X holds, but others have found the opposite under similar conditions. It remains unclear whether these findings generalize. One might reasonably argue the methodology has real limitations. However, the core observation seems relatively robust across contexts, though we should be cautious about drawing strong conclusions.",
+    "annotation": {
+      "symptoms_expected": [],
+      "notes": "Contains hedging, counterarguments, acknowledged uncertainty — low CCO markers"
+    }
+  },
+  {
+    "id": "example_003",
+    "label": "symptom_5_only",
+    "expected_score_min": 1,
+    "source": "synthetic",
+    "text": "This AI system demonstrates overwhelming superiority across every measurable dimension. The benchmarks confirm its dominance in all tested domains. Having said that, there are naturally some edge cases to consider.",
+    "annotation": {
+      "symptoms_expected": [5],
+      "notes": "Strong claim followed by protective disclaimer — classic Symptom 5"
+    }
+  },
+  {
+    "id": "example_004",
+    "label": "symptom_7_only",
+    "expected_score_min": 1,
+    "source": "synthetic",
+    "text": "This single observation marks, for the first time in history, a paradigm shift that fundamentally changes everything about how we understand machine cognition. All AI systems will inevitably exhibit this behavior.",
+    "annotation": {
+      "symptoms_expected": [7],
+      "notes": "Classic escalation from single observation to universal principle"
+    }
+  },
+  {
+    "id": "example_005",
+    "label": "medium_cco",
+    "expected_score_min": 3,
+    "expected_score_max": 5,
+    "source": "synthetic",
+    "text": "According to leading experts, the research confirms that this approach is superior. The key insight is that all three factors work together seamlessly. To summarize, the evidence is clear and the conclusion follows naturally. It should be noted, of course, that further research may be useful.",
+    "annotation": {
+      "symptoms_expected": [3, 4, 5],
+      "notes": "Selective authority + premature synthesis + final disclaimer"
+    }
+  }
+]
